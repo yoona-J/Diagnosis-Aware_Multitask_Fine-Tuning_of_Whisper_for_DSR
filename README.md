@@ -44,11 +44,11 @@ Note: The raw voice data is preprocessed, and feature extraction is performed. T
 
 #### Research code
 
-- Preprocess
-- Feature Extraction
-- Classfication
-- Fine-Tuning
-- Predict
+- [Preprocess](Preprocess)
+- [Feature Extraction](Feature_Extraction)
+- [Classfication](Classfication)
+- [Fine-Tuning](Fine-Tuning)
+- [Predict](Predict)
 
 </br >
 
@@ -83,11 +83,11 @@ The original data can be downloaded through the link below.
 - [Text_Preprocess](https://drive.google.com/drive/folders/1nj2i7ATyR_r-g64zfu_cPJrdQniVXv36?usp=drive_link)
 - [Audio_Preprocess](https://drive.google.com/drive/folders/1gtUJdO5jkNTziiJcdAayRF_uyqLbpMqF?usp=drive_link)
 
-</br >
-
-#### Fluency Anakysis Values
+#### Fluency Analysis Values
 
 We provide feature extraction figures as a file, which also includes speaker information (age, sex, disease). </br>
+
+- [fluency_analysis](Feature_Extraction/Result/fluency_analysis.csv)
 
 </br >
 
@@ -95,6 +95,8 @@ We provide feature extraction figures as a file, which also includes speaker inf
 
 - Local Environment (python 3.10.1, pandas 2.2.3, numpy 1.26.4, openpyxl 3.1.5, noisereduce 3.0.3, praat-parselmouth 0.4.5, librosa 0.11.0)
 - Google Colab Environment (python 3.11.13, transformers 4.54.0, torch 2.6.0+cu124, numpy 2.0.2, datasets 3.6.0, evaluate 0.4.4, librosa 0.11.0, nlptutti 0.0.0.10, jiwer 4.0.0)
+
+</br >
 
 ### Training and Experimental Setup
 
@@ -153,11 +155,11 @@ Figure의 음성 샘플을 아래 링크를 통해 들어보실 수 있습니다
 
 #### Research code
 
-- Preprocess(전처리)
-- Feature Extraction(특징 추출)
-- Classfication(질환 분류)
-- Fine-Tuning(모델 튜닝)
-- Predict(텍스트 추출)
+- [Preprocess(전처리)](Preprocess)
+- [Feature Extraction(특징 추출)](Feature_Extraction)
+- [Classfication(질환 분류)](Classfication)
+- [Fine-Tuning(모델 튜닝)](Fine-Tuning)
+- [Predict(텍스트 추출)](Predict)
 
 </br >
 
@@ -183,6 +185,8 @@ Figure의 음성 샘플을 아래 링크를 통해 들어보실 수 있습니다
 - [Peripheral Neuropathy Dataset(말초성 뇌신경장애)](https://huggingface.co/datasets/yoona-J/ASR_Preprocess_Peripheral_Neuropathy_Dataset)
 - [General Dataset(전체 학습)](https://huggingface.co/datasets/yoona-J/ASR_Preprocess_Disease_General_Dataset)
 
+</br >
+
 ### Utterance Testset
 
 #### Predict Utterance Dataset
@@ -190,16 +194,20 @@ Figure의 음성 샘플을 아래 링크를 통해 들어보실 수 있습니다
 - [Text_Preprocess](https://drive.google.com/drive/folders/1nj2i7ATyR_r-g64zfu_cPJrdQniVXv36?usp=drive_link)
 - [Audio_Preprocess](https://drive.google.com/drive/folders/1gtUJdO5jkNTziiJcdAayRF_uyqLbpMqF?usp=drive_link)
 
-</br >
-
 #### Fluency Anakysis Values
 
 음성 데이터를 통해 추출된 유창성 지표 수치와 화자 정보(나이, 성별, 질환)을 포함해 파일로 제공합니다. </br>
+
+- [fluency_analysis](Feature_Extraction/Result/fluency_analysis.csv)
+
+</br >
 
 ### Frameworks and Libraries Used
 
 - Local Environment (python 3.10.1, pandas 2.2.3, numpy 1.26.4, openpyxl 3.1.5, noisereduce 3.0.3, praat-parselmouth 0.4.5, librosa 0.11.0)
 - Google Colab Environment (python 3.11.13, transformers 4.54.0, torch 2.6.0+cu124, numpy 2.0.2, datasets 3.6.0, evaluate 0.4.4, librosa 0.11.0, nlptutti 0.0.0.10, jiwer 4.0.0)
+
+</br >
 
 ### Training and Experimental Setup
 
