@@ -24,8 +24,6 @@ People with dysarthria have irregular speech patterns depending on their disease
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 <p align='center'>Fig 1, 2. Disease-specific speech Visualization of waveform+VAD and spectrograms</p>
-</br>
-You can hear the voice on this page.
 
 ---
 
@@ -135,8 +133,6 @@ chungyn@hanyang.ac.kr </br>
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 
 <p align='center'>Fig 1, 2. 질환 별 음성 데이터의 파형+VAD 및 스펙트로그램 시각화</p>
-</br>
-Figure의 음성 샘플을 아래 링크를 통해 들어보실 수 있습니다.
 
 ---
 
