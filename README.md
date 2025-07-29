@@ -14,7 +14,7 @@ You can run the research results through the following steps. <br />
 
 ## Research Content
 
-People with dysarthria have irregular speech patterns depending on their disease, which causes problems with the recognition accuracy of commonly used voice recognition technologies. However, existing studies only compare single categories of diseases or utilize integrated dysarthria data, and do not classify disease-specific patterns for research. Therefore, this study extracts fluency indices for three diseases (stroke, cerebral palsy, and peripheral nerve disorders) based on the Korean speech disorder corpus, classifies the diseases using the extracted indices, and compares the performance of the speech recognition model. The experimental results show that the classification accuracy is 99% when the fluency index is used (p < 0.05), and the classified disease-specific model shows a difference of up to 18.34%p and 1.06%p in terms of CER, and up to 10.12%p and 0.79%p in terms of speaker-specific index (PER) compared to the Whisper-small model and the full learning model, respectively. This suggests that utilizing a detailed model affects the improvement of the error rate, and that a speaker-based customized speech recognition system is necessary.
+Individuals with dysarthria exhibit irregular speech patterns depending on the characteristics of their disease, significantly reducing the accuracy of conventional speech recognition systems. Most prior studies have compared only a single disease group or used aggregated data without distinguishing between diseases, failing to adequately analyze disease-specific differences. This study extracted fluency metrics from a Korean dysarthric speech corpus across three disease groups—stroke, cerebral palsy, and peripheral neuropathy—and classified the diseases based on these features. Then, the performance of customized speech recognition models for each disease was evaluated using Weighted Character Error Rate (Weighted-CER). The results showed that the classification accuracy based on fluency metrics reached 99%, and the disease-specific models improved Weighted-CER by up to 18.34 and 1.05 percentage points compared to the Whisper-Small model and a model trained on the entire dataset, respectively. In terms of Weighted-CER, the error rate decreased by up to 15.27 and 1.49 percentage points, respectively. These findings indicate that disease-specific models can meaningfully enhance speech recognition performance for dysarthric speech and highlight the necessity of developing speaker-customized speech recognition systems.
 
 ---
 
@@ -29,7 +29,7 @@ People with dysarthria have irregular speech patterns depending on their disease
 
 ## Reproducibility
 
-<p align='center'><img src="https://github.com/user-attachments/assets/e1b4ea86-8ea5-4531-a6c4-64f2e338ec55" width="2300" height="1080"/></p>
+<img width="2300" height="1080" alt="ASR_Figure4" src="https://github.com/user-attachments/assets/f7ee6291-e478-4fa2-a202-2ad1f95a8ca3" />
 <p align='center'>Fig 3. Overview of our approach</p>
 
 Note: The raw voice data is preprocessed, and feature extraction is performed. The extracted features are used to classify diseases. If there is misclassified voice data, the data is passed to the General Model that is trained to extract the text.
@@ -123,7 +123,7 @@ chungyn@hanyang.ac.kr </br>
 
 ## Research Content
 
-구음 장애인은 질환별로 불규칙한 음성 패턴을 가져 일반적으로 사용되는 음성 인식 기술에 대해 인식 정확도가 떨어지는 문제가 발생한다. 그럼에도 기존 연구에서는 단일 범주의 질환에 대해서만 비교하거나 통합된 구음 장애 데이터를 활용할 뿐 질환별 패턴을 분류해 연구하고 있지 않다. 따라서 본 연구는 한국어 구음 장애 코퍼스를 기반으로 세 가지 질환(뇌졸중, 뇌성마비, 말초성 뇌신경장애)에 대해 유창성 지표를 추출하고, 추출된 지표로 질환을 분류해 음성 인식 모델의 성능을 화자 특화 평가 지표인 PER과 함께 비교한다. 실험 결과, 유창성 지표를 활용했을 때 99%의 분류 정확도를 보이며(p < 0.05), 분류된 질환별 모델은 Whisper-small 모델과 전체 학습 모델보다 각각 최대 CER 기준 18.34%p, 1.06%p, 화자 특화 지표(PER)로는 각각 최대 10.12%p, 0.79%p의 차이를 나타내고 있다. 이는 모델을 세분화하여 활용하는 것이 오류율 개선에 영향을 미치며, 화자 기반 맞춤형 음성 인식 시스템이 필요함을 시사한다.
+구음 장애인은 질환 특성에 따라 불규칙한 음성 패턴을 보이며, 이로 인해 기존 음성 인식 시스템의 정확도가 크게 낮아지는 문제가 있다. 그러나 선행 연구 대부분은 단일 질환 집단만 비교하거나 질환을 구분하지 않은 통합 데이터를 사용해 질환별 차이를 충분히 분석하지 못했다. 본 연구는 한국어 구음 장애 코퍼스를 활용해 뇌졸중, 뇌성마비, 말초성 뇌신경 장애의 세 질환 그룹에서 유창성 지표를 추출한 뒤, 해당 지표로 질환을 분류하고 각 질환별 맞춤형 음성 인식 모델의 성능을 가중 문자 오류율(Weighted-CER)로 평가했다. 실험 결과, 유창성 지표 기반 분류 정확도는 99%에 달했으며, 질환별로 학습한 모델은 Whisper-small 모델 대비 최대 18.34%p, 전체 데이터를 학습한 모델 대비 최대 1.05%p의 CER 개선 효과를 보였다. Weighted-CER 기준으로는 각각 최대 15.27%p, 1.49%p까지 오류율이 감소했다. 이는 질환별로 세분화된 모델이 구음 장애 음성 인식 성능을 유의미하게 향상시킬 수 있음을 시사하며, 화자 맞춤형 음성 인식 시스템 개발의 필요성을 강조한다.
 
 ---
 
@@ -138,7 +138,7 @@ chungyn@hanyang.ac.kr </br>
 
 ## Reproducibility
 
-<p align='center'><img src="https://github.com/user-attachments/assets/e1b4ea86-8ea5-4531-a6c4-64f2e338ec55" width="2300" height="1080"/></p>
+<img width="2300" height="1080" alt="ASR_Figure4" src="https://github.com/user-attachments/assets/f7ee6291-e478-4fa2-a202-2ad1f95a8ca3" />
 <p align='center'>Fig 3. 연구 진행 방식</p>
 
 참고: 원천 음성 데이터를 전처리하고, 전처리 된 데이터를 활용해 발화 특징을 추출합니다. 이는 질환 분류에 사용되며, 분류된 음성 데이터는 질환 별로 튜닝한 음성 인식 모델에 전달됩니다. 잘못 분류된 경우엔 질환 구분 없이 전체 데이터를 활용해 튜닝한 모델로 전달됩니다.
